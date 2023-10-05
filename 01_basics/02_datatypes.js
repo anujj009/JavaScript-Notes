@@ -30,3 +30,9 @@ const id = Symbol('123')
 const oid = Symbol('123')
 console.log(id===oid);      //false
 
+
+/*****************memory***********/
+
+//stack=primitive  => copy provided
+//heap = non-primitive  => reference provided
+
