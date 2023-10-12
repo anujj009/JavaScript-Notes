@@ -60,11 +60,14 @@ const addtwo = (num1, num2) => ({user : "anuj"})   //return object
 
 // IIFE => Imediately Invoked Function Expressions
 
-( function tea(){
+( function tea(){               // named IIFE
     console.log("DB conected");
 }) ();
 
-( () => {
-    console.log(" connected");
-} )();
+( (name) => {
+    console.log(` name is ${name}`);
+} )('anuj');
+
+
+
 
