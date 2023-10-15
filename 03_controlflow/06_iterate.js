@@ -47,6 +47,16 @@ const myCode = [
 ]
 
 myCode.forEach( (item) => {
-    console.log(item.name);
+    // console.log(item.name);
 } )
+
+
+// const values = myCode.forEach( (item) => {
+//     console.log(item);
+// } )
+
+
+
+
+
 
