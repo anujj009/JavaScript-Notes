@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul class="language">
+        <li>javascript</li>
+    </ul>
+    
+</body>
+<script>
+
+    function addLang(langName) {
+        let li = document.createElement('li')
+        li.innerHTML = `${langName}`
+        document.querySelector('.language')
+        .appendChild(li)
+    }
+    addLang("java")
+    addLang("React")
+
+    function addOptiLanf(langName) {
+       let li = document.createElement('li')
+       li.appendChild(document.createTextNode(langName))
+       document.querySelector('.language').appendChild(li)
+
+    }
+    addOptiLanf("sql")
+
+    // Edit
+    let newLang = document.querySelector("li:nth-child(2)")
+    // newLang.innerHTML = "Other"
+    let newli= document.createElement('li')
+    newli.textContent= "other"
+    newLang.replaceWith(newli)
+
+    //Edit
+    let secLang = document.querySelector('li:first-child')
+    secLang.outerHTML = '<li>TypeScript</li>'
+
+    // Remove
+
+    let lastLang = document.querySelector('li:last-child')
+    lastLang.remove()
+</script>
+</html>
