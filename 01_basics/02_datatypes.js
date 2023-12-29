@@ -11,13 +11,16 @@ let isLoggedIn = true
 // BigInt
 // String =""
 // Boolean
-// null = standalone value
+// null = standalone value/empty value
 // undefined 
 // symbol  = for uniqueness, 
 
-//reference(non-primitive)
+//reference(non-primitive) DT
 //object
 //Arrays
+//functions
+
+
 
 
 

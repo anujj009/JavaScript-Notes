@@ -5,7 +5,7 @@ const course ={
 }
 
 const {teacher} = course
-const {teacher: tutor} = course
+const {teacher: tutor} = course     // de-structuring
 
 console.log(tutor);
 
@@ -28,4 +28,4 @@ const navbar = ({company}) => {         //in react
     {}
 ]
 
-
+// jsonformatter.com

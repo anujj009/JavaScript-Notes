@@ -17,7 +17,7 @@ console.log(valueNum);      //NaN
 
 let Num = 55
 let stringNum = String(Num)
-console.log(stringNum)
+console.log(stringNum)   //55 => string
 
 
 
@@ -26,8 +26,17 @@ console.log(stringNum)
 console.log("1"+2);     //12
 console.log(1+2+"2");   //32
 console.log("1"+2+2);   //122
-
+ 
 console.log(+"");       //0
 
+console.log(2**3);  //8
+console.log("2">1);     //true
 
-console.log("2">1);
+console.log(null > 0);      //false
+console.log(null == 0);     //false
+console.log(null >= 0);     //true (0>=0)
+
+console.log(undefined > 0); // false in every operator
+
+// === strict check - DT and value both check
+
