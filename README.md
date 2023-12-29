@@ -14,3 +14,7 @@
 - Loops
 - High Order Array Loops
 - Filter, Map and Reduce
+- DOM
+- Event Listeners
+- OOPS
+  
